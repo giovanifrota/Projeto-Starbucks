@@ -73,11 +73,17 @@ span{
 
 .copo-pequeno{
     width:60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copo-pequeno:hover{
+    transform: translateY(-25px);
 }
 
 .circulo{
-    background-color: #017143;
-    width: 100%;
+    background: #017143;
+    width: 110%;
     height: 950px;;
     position: absolute;
     top: 0;
