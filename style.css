@@ -90,3 +90,16 @@ span{
     left: 0;
     clip-path: circle(600px at right 800px);
 }
+
+@media screen and (max-width: 276px) {
+  .circulo{
+    width:376%;
+  }
+  .caixa-imagem{
+    margin-top: 370px;
+    margin-left: 150px;
+  }
+  .menu{
+    margin-left: 300px;
+  }
+}
