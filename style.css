@@ -91,7 +91,7 @@ span{
     clip-path: circle(600px at right 800px);
 }
 
-@media screen and (max-width: 276px) {
+@media screen and (max-width: 400px) {
   .circulo{
     width:376%;
   }
