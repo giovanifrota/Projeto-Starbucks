@@ -91,15 +91,30 @@ span{
     clip-path: circle(600px at right 800px);
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 667px) {
+    body{
+        padding-left: 25px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .caixa-imagem{
+        margin-top: 80px;
+        margin-left: 50px;
+        display: block;
+    }
+    .conteudo{
+        display: block;
+    }
   .circulo{
     width:376%;
   }
+  
   .caixa-imagem{
-    margin-top: 370px;
-    margin-left: 150px;
+    margin-top: 100px;
+    margin-left: 50px;
   }
   .menu{
-    margin-left: 300px;
+    margin-left: 100px;
   }
 }
